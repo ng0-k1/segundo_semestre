@@ -1,0 +1,122 @@
+05; 18: 28: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x000002141C9B84F0>
+05; 18: 28: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000002141C9B8280>
+05; 18: 28: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000002141C9B8280>
+05; 18: 34: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 18: 34: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x00000275DE6A78E0>
+05; 18: 34: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x00000275E04F8280>
+05; 18: 34: DEBUG [CursorPool.py: 32] Dentro del bloque with
+05; 18: 34: DEBUG [CursorPool.py: 35] []
+05; 18: 34: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 18: 34: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 18: 34: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x00000275E04F8280>
+05; 18: 39: DEBUG [logger_base.py: 10] Mensaje debug
+05; 18: 39: INFO [logger_base.py: 11] Mensaje de información
+05; 18: 39: WARNING [logger_base.py: 12] Mensajes de advertencia
+05; 18: 39: ERROR [logger_base.py: 13] Mensajes de error
+05; 18: 39: CRITICAL [logger_base.py: 14] Mensaje tipo critico
+05; 21: 07: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 21: 07: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x000001C1B16F5610>
+05; 21: 07: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001C1B16F5640>
+05; 21: 07: DEBUG [UsuariosDao.py: 46] Eliminando usuario
+05; 21: 07: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 21: 07: ERROR [CursorPool.py: 23] Ocurrió una excepción, se hace rollback: Could not process parameters <class 'ValueError'> <traceback object at 0x000001C1B16FEF80>
+05; 21: 07: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001C1B16F5640>
+05; 22: 38: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 22: 38: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x00000172E49C8280>
+05; 22: 38: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x00000172E4B41A30>
+05; 22: 38: DEBUG [UsuariosDao.py: 30] Insertando usuarios
+05; 22: 38: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 22: 38: ERROR [CursorPool.py: 23] Ocurrió una excepción, se hace rollback: 'int' object is not callable <class 'TypeError'> <traceback object at 0x00000172E4856280>
+05; 22: 38: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x00000172E4B41A30>
+05; 23: 58: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 23: 58: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x0000015DDF9878E0>
+05; 23: 58: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE17B8340>
+05; 23: 58: DEBUG [UsuariosDao.py: 18] Seleccionando usuarios
+05; 23: 58: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 23: 58: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 23: 58: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE17B8340>
+05; 23: 58: INFO [MenuAppUsuario.py: 15] Usuario: 2, username: prueba, contraseña: 12312
+05; 24: 07: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 24: 07: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2017F10>
+05; 24: 07: DEBUG [UsuariosDao.py: 30] Insertando usuarios
+05; 24: 07: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 24: 07: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 24: 07: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2017F10>
+05; 24: 07: INFO [MenuAppUsuario.py: 22] Usuario insertado con exito: 1
+05; 24: 29: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 24: 29: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2017F10>
+05; 24: 29: DEBUG [UsuariosDao.py: 30] Insertando usuarios
+05; 24: 29: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 24: 29: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 24: 29: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2017F10>
+05; 24: 29: INFO [MenuAppUsuario.py: 22] Usuario insertado con exito: 1
+05; 25: 05: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 25: 05: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2028790>
+05; 25: 05: DEBUG [UsuariosDao.py: 38] Actualizando usuario
+05; 25: 05: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 25: 05: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 25: 05: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2028790>
+05; 25: 05: INFO [MenuAppUsuario.py: 30] Usuario actualizado: 1
+05; 25: 53: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 25: 53: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2028D00>
+05; 25: 53: DEBUG [UsuariosDao.py: 18] Seleccionando usuarios
+05; 25: 53: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 25: 53: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 25: 53: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2028D00>
+05; 25: 53: INFO [MenuAppUsuario.py: 15] Usuario: 2, username: prueba, contraseña: 12312
+05; 25: 53: INFO [MenuAppUsuario.py: 15] Usuario: 4, username: operilla, contraseña: password
+05; 25: 53: INFO [MenuAppUsuario.py: 15] Usuario: 5, username: monitoria, contraseña: monitoria
+05; 26: 01: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 26: 01: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2017E20>
+05; 26: 01: DEBUG [UsuariosDao.py: 46] Eliminando usuario
+05; 26: 01: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 26: 01: ERROR [CursorPool.py: 23] Ocurrió una excepción, se hace rollback: Could not process parameters <class 'ValueError'> <traceback object at 0x0000015DE2044480>
+05; 26: 01: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000015DE2017E20>
+05; 26: 57: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 26: 57: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x000001793BFE8280>
+05; 26: 57: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001793BFF0670>
+05; 26: 57: DEBUG [UsuariosDao.py: 46] Eliminando usuario
+05; 26: 57: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 26: 57: ERROR [CursorPool.py: 23] Ocurrió una excepción, se hace rollback: Could not process parameters <class 'ValueError'> <traceback object at 0x000001793BFE1780>
+05; 26: 57: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001793BFF0670>
+05; 30: 56: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 30: 56: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x0000025C5C928280>
+05; 30: 56: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000025C5CAA1A30>
+05; 30: 56: DEBUG [UsuariosDao.py: 30] Insertando usuarios
+05; 30: 56: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 30: 56: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 30: 56: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000025C5CAA1A30>
+05; 30: 56: INFO [MenuAppUsuario.py: 22] Usuario insertado con exito: 1
+05; 31: 10: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 31: 10: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000025C5D188AC0>
+05; 31: 10: DEBUG [UsuariosDao.py: 46] Eliminando usuario
+05; 31: 10: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 31: 10: ERROR [CursorPool.py: 23] Ocurrió una excepción, se hace rollback: Could not process parameters <class 'ValueError'> <traceback object at 0x0000025C5D1A4100>
+05; 31: 10: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x0000025C5D188AC0>
+05; 32: 43: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 32: 44: DEBUG [Conexion.py: 28] Creación del pool exitoso: <mysql.connector.pooling.MySQLConnectionPool object at 0x000001FDD25578E0>
+05; 32: 44: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001FDD43A8340>
+05; 32: 44: DEBUG [UsuariosDao.py: 18] Seleccionando usuarios
+05; 32: 44: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 32: 44: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 32: 44: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001FDD43A8340>
+05; 32: 44: INFO [MenuAppUsuario.py: 15] Usuario: 7, username: Oscar, contraseña: weqeq
+05; 32: 47: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 32: 47: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001FDD4BE7F10>
+05; 32: 47: DEBUG [UsuariosDao.py: 46] Eliminando usuario
+05; 32: 47: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 32: 47: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 32: 47: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001FDD4BE7F10>
+05; 32: 47: INFO [MenuAppUsuario.py: 36] Usuario eliminado: 1
+05; 32: 49: DEBUG [CursorPool.py: 10] Incio del método with __enter__
+05; 32: 49: DEBUG [Conexion.py: 40] Conexión establecida exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001FDD4BE7F10>
+05; 32: 49: DEBUG [UsuariosDao.py: 18] Seleccionando usuarios
+05; 32: 49: DEBUG [CursorPool.py: 20] Se ejecuta método __exit__
+05; 32: 49: DEBUG [CursorPool.py: 26] Commit de la transacción
+05; 32: 49: DEBUG [Conexion.py: 46] Liberando la conexión exitosamente: <mysql.connector.pooling.PooledMySQLConnection object at 0x000001FDD4BE7F10>
+05; 33: 36: INFO [logger_base.py: 11] Mensaje de información
+05; 33: 36: WARNING [logger_base.py: 12] Mensajes de advertencia
+05; 33: 36: ERROR [logger_base.py: 13] Mensajes de error
+05; 33: 36: CRITICAL [logger_base.py: 14] Mensaje tipo critico
+05; 33: 49: INFO [MenuAppUsuario.py: 22] Usuario insertado con exito: 1
+05; 33: 52: INFO [MenuAppUsuario.py: 15] Usuario: 8, username: DSADAS, contraseña: weqwe
